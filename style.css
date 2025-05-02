@@ -137,22 +137,6 @@ footer a:hover {
   gap: 30px;
   margin-top: 40px;
 }
-
-.about-list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 900px;
-  margin: 40px auto;
-}
-.about-list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 900px;
-  margin: 40px auto;
-}
-
 .about-card {
   display: flex;
   align-items: center;
