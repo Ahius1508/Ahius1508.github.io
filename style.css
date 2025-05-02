@@ -138,18 +138,17 @@ footer a:hover {
   margin-top: 40px;
 }
 
-.profile-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+.about-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.about-text {
-  flex: 1;
-  min-width: 250px;
-  max-width: 500px;
-  font-size: 16px;
-  line-height: 1.6;
+.about-card.reverse {
+  flex-direction: row-reverse;
 }
