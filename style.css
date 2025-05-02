@@ -122,6 +122,13 @@ footer a:hover {
   flex-wrap: wrap;
 }
 
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .profile-img {
   width: 200px;
   height: 200px;
