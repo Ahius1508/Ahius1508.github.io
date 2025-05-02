@@ -129,26 +129,32 @@ footer a:hover {
   flex-wrap: wrap;
 }
 
-.about-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 40px;
-}
 .about-card {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
-  flex-wrap: wrap;
-  padding: 20px;
+  flex-wrap: nowrap; 
   background: white;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 900px;       
+  margin: auto;            
+  box-sizing: border-box;  
 }
-
-.about-card.reverse {
-  flex-direction: row-reverse;
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  flex-shrink: 0; /* ⚠️ Không cho ảnh bị co lại */
 }
-
+@media (max-width: 768px) {
+  .about-card {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
