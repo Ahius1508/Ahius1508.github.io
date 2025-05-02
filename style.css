@@ -106,8 +106,13 @@ footer a:hover {
     padding: 15px;
   }
 }
-<section>
-  <img src="banner.jpg" alt="Chào mừng" class="banner">
-  <h2>Chào mừng bạn!</h2>
-  <p>Trang chủ website cá nhân. Hãy tìm hiểu thêm về tôi!</p>
-</section>
+.banner {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
