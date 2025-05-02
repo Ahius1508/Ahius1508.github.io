@@ -1,3 +1,112 @@
+/* Reset CSS cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 0 1rem;
+}
+/* Header */
+header {
+  background-color: #008080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  animation: fadeInDown 1s ease;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffd700;
+}
+/* Main Section */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease;
+}
+h2 {
+  color: #008080;
+  margin-bottom: 10px;
+}
+section p, section label {
+  margin-bottom: 10px;
+  display: block;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+form button {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: #006666;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: white;
+  margin-top: 40px;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+footer a:hover {
+  transform: scale(1.2);
+}
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  main {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,3 +178,10 @@ footer {
     text-align: center;
   }
 }
+@media (max-width: 600px) {
+  .banner {
+    max-height: 250px;
+    border-radius: 5px;
+  }
+}
+
