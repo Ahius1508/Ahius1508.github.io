@@ -115,3 +115,22 @@ footer a:hover {
   border-radius: 10px;
   object-fit: cover;
 }
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
