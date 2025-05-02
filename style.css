@@ -106,12 +106,8 @@ footer a:hover {
     padding: 15px;
   }
 }
-.avatar {
-  display: block;
-  margin: 20px auto;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+<section>
+  <img src="banner.jpg" alt="Chào mừng" class="banner">
+  <h2>Chào mừng bạn!</h2>
+  <p>Trang chủ website cá nhân. Hãy tìm hiểu thêm về tôi!</p>
+</section>
