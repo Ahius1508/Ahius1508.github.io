@@ -107,12 +107,11 @@ footer a:hover {
   }
 }
 .banner {
-  width: 75%;
-  max-width: 75%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 16px;
   display: block;
+  margin: 0 auto 20px auto;
+  width: 100%;
+  max-width: 800px; 
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
-
