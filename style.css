@@ -142,8 +142,8 @@ footer a:hover {
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  background: white;
   padding: 20px;
+  background: white;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -152,15 +152,3 @@ footer a:hover {
   flex-direction: row-reverse;
 }
 
-.profile-img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-}
-
-.about-text {
-  flex: 1;
-  min-width: 250px;
-}
