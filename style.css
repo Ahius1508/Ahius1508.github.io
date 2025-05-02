@@ -164,3 +164,9 @@ footer a:hover {
   flex: 1;
   min-width: 250px;
 }
+@media (max-width: 600px) {
+  .banner {
+    max-height: 250px;
+    border-radius: 5px;
+  }
+}
